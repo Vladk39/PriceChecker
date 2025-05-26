@@ -5,16 +5,16 @@
 #  Быстрый старт
 1. Клонировать репозиторий 
 ```
-git https://github.com/Vladk39/PriceChecker
+git clone https://github.com/Vladk39/PriceChecker
 cd PriceChecker
 ```
 2. Создать и настроить .env файл по образцу.
 3. Запустить приложение.
 ```
 go mod tidy
-go run ./cmd
+cd ./cmd
+go run main.go
 ```
-Вариант 2 с контейнером docker:
 
 #  API  endpoints
 ## Метод GET: /api/tickers 
